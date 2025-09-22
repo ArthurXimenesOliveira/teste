@@ -17,10 +17,10 @@ aluno.getCurso("ADS");
 
 // ========== Criação do objeto PJ ==========
 
-const pf = new PF();                                   // 08 // Cria instância de Pessoa Jurídica
-pf.setNome("Pedro");                                   // 09 // Define o nome
-pf.setEmail("pedro@ifb.edu.br");                       // 10 // Define o e-mail com validação
-pf.setCPF("123.456.789-00");                      // 11 // Define o CNPJ com validação mínima de tamanho
+                                   // 08 // Cria instância de Pessoa Jurídica
+aluno.setNome("Pedro");                                   // 09 // Define o nome
+aluno.setEmail("pedro@ifb.edu.br");                       // 10 // Define o e-mail com validação
+aluno.setCPF("123.456.789-00");                      // 11 // Define o CNPJ com validação mínima de tamanho
 //aluno.setPf(pf);
 
 // ========== Endereço ==========
