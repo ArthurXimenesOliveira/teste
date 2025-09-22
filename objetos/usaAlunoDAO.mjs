@@ -1,3 +1,4 @@
+/*
 // 01 // código construído na pasta "/pessoas/usaPJDAO.mjs"
 import Aluno from './pessoas/Aluno.js';
 import AlunoDAO from './pessoas/DAOs/AlunoDAO.mjs';
@@ -66,3 +67,5 @@ pfdao.saveJSON();                                       // 37 // Salva no "local
 console.log(x);                                         // 39 // Exibe o objeto JSON diretamente
 console.log(JSON.stringify(x));                         // 40 // Exibe o objeto convertido em string JSON
 console.log(pfdao.recoveryJSON());                      // 41 // Lê do localStorage e exibe a versão recuperada
+
+*/
