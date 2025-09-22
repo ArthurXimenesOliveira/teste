@@ -50,24 +50,23 @@ class Aluno extends PF {
   getCurso() {
     return this.#curso;
   }
-
+/*
   #pf;
 
-  // 11:
   setPf(pf) {
     if (pf instanceof PF) {
       this.#pf = pf;
-      pf.setAluno(this); // referência cruzada
+      pf.setAluno(this); 
       return true;
     } else {
       return false;
     }
   }
-  // 12:
+  
   getPf() {
     return this.#pf;
   }
-
+*/
   #ie;  // Atributo privado para armazenar objeto do tipo IE
 
   // 22
