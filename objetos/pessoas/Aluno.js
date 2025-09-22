@@ -50,23 +50,7 @@ class Aluno extends PF {
   getCurso() {
     return this.#curso;
   }
-/*
-  #pf;
 
-  setPf(pf) {
-    if (pf instanceof PF) {
-      this.#pf = pf;
-      pf.setAluno(this); 
-      return true;
-    } else {
-      return false;
-    }
-  }
-  
-  getPf() {
-    return this.#pf;
-  }
-*/
   #ie;  // Atributo privado para armazenar objeto do tipo IE
 
   // 22
