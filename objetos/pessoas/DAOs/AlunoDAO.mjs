@@ -26,9 +26,9 @@ export default class AlunoDAO {                        // 05 // Declara classe P
             mattricula: this.#aluno.getMatricula(),
             curso: this.#aluno.getCurso(),
             pf: {
-                nome: this.#aluno.getNome(),
-                email: this.#aluno.getEmail(),
-                cpf: this.#aluno.getCPF(),
+                nome: this.#aluno.getPf().getNome(),
+                email: this.#aluno.getPf().getEmail(),
+                cpf: this.#aluno.getPf().getCPF(),
             },
             endereco: {
                 logradouro: this.#aluno.getEndereco().getLogradouro(),
