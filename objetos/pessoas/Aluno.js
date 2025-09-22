@@ -50,25 +50,26 @@ class Aluno extends PF {
   getCurso() {
     return this.#curso;
   }
+/*
+  #ie;  
 
-  #ie;  // Atributo privado para armazenar objeto do tipo IE
-
-  // 22
+  
     setIE(ie) {
-      // 23
-      if (ie instanceof IE) {             // Verifica se o parâmetro é instância da classe IE
+      
+      if (ie instanceof IE) {             
         this.#ie = ie;
-        ie.setAluno(this);                   // Referência cruzada (IE também aponta para este PJ)
+        ie.setAluno(this);                   
         return true;
       } else {
         return false;
       }
     }
   
-  // 24
+  
     getIE() {
-      return this.#ie;                    // Retorna o objeto IE relacionado
+      return this.#ie;                    
     }
+  */
 }
 // 16:
 module.exports = Aluno;
