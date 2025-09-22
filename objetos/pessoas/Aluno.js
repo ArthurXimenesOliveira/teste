@@ -3,6 +3,7 @@
 //     Objetivo do exemplo: demonstrar conceitos de Herança, bem como encapsulamento adicionados de condicionais utilizando operadores lógicos
 // 02:
 const PF = require('./PF');
+const IE = require('./IE/IEclss');
 // 03:
 class Aluno extends PF {
   // 04:
