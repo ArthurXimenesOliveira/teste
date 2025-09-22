@@ -49,6 +49,42 @@ class Aluno extends PF {
   getCurso() {
     return this.#curso;
   }
+
+  #pf;
+
+  // 11:
+  setPf(pf) {
+    if (pf instanceof PF) {
+      this.#pf = pf;
+      pf.setAluno(this); // referência cruzada
+      return true;
+    } else {
+      return false;
+    }
+  }
+  // 12:
+  getPf() {
+    return this.#pf;
+  }
+
+  #ie;  // Atributo privado para armazenar objeto do tipo IE
+
+  // 22
+    setIE(ie) {
+      // 23
+      if (ie instanceof IE) {             // Verifica se o parâmetro é instância da classe IE
+        this.#ie = ie;
+        ie.setAluno(this);                   // Referência cruzada (IE também aponta para este PJ)
+        return true;
+      } else {
+        return false;
+      }
+    }
+  
+  // 24
+    getIE() {
+      return this.#ie;                    // Retorna o objeto IE relacionado
+    }
 }
 // 16:
 module.exports = Aluno;
