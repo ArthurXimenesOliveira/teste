@@ -13,7 +13,7 @@ import IE from './pessoas/IE/IEclss.js';                // 06 // Importa a class
 
 const aluno = new Aluno;
 aluno.setMatricula("20001234");
-aluno.getCurso("info");
+aluno.getCurso("ADS");
 
 // ========== Criação do objeto PJ ==========
 
