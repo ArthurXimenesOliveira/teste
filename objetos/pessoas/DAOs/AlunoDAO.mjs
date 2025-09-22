@@ -23,7 +23,7 @@ export default class AlunoDAO {                        // 05 // Declara classe P
         }
 
         return {
-            mattricula: this.#aluno.getMatricula(),
+            matricula: this.#aluno.getMatricula(),
             curso: this.#aluno.getCurso(),
             pf: {
                 nome: this.#aluno.getPf().getNome(),
