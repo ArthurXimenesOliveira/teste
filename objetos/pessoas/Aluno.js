@@ -50,26 +50,7 @@ class Aluno extends PF {
   getCurso() {
     return this.#curso;
   }
-/*
-  #ie;  
 
-  
-    setIE(ie) {
-      
-      if (ie instanceof IE) {             
-        this.#ie = ie;
-        ie.setAluno(this);                   
-        return true;
-      } else {
-        return false;
-      }
-    }
-  
-  
-    getIE() {
-      return this.#ie;                    
-    }
-  */
 }
 // 16:
 module.exports = Aluno;
