@@ -21,7 +21,7 @@ const pf = new PF();                                   // 08 // Cria instância 
 pf.setNome("Pedro");                                   // 09 // Define o nome
 pf.setEmail("pedro@ifb.edu.br");                       // 10 // Define o e-mail com validação
 pf.setCPF("123.456.789-00");                      // 11 // Define o CNPJ com validação mínima de tamanho
-aluno.setPf(pf);
+//aluno.setPf(pf);
 
 // ========== Endereço ==========
 
